@@ -1,0 +1,70 @@
+Last login: Tue Feb 18 11:30:36 on ttys001
+/Users/bindu/.zshrc:4: no such file or directory: /usr/libexec/maven_home
+bindu@Bindus-MacBook-Air ~ % cd /Users/bindu/eclipse-workspace/NinjaV6
+
+bindu@Bindus-MacBook-Air NinjaV6 % touch run.sh     
+bindu@Bindus-MacBook-Air NinjaV6 % nano run.sh
+bindu@Bindus-MacBook-Air NinjaV6 % chmod +xrun.sh
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...
+bindu@Bindus-MacBook-Air NinjaV6 % ./run.sh
+Hello, this is my first script!
+bindu@Bindus-MacBook-Air NinjaV6 % ls -l /Users/bindu/eclipse-workspace/NinjaV6
+
+total 32
+-rw-rw-r--@  1 bindu  staff   173 Feb 13 15:48 config.properties
+drwxr-xr-x@  4 bindu  staff   128 Feb 18 10:23 logs
+-rw-rw-r--@  1 bindu  staff  3159 Feb 18 10:20 pom.xml
+drwxr-xr-x@  7 bindu  staff   224 Feb 18 10:41 reports
+-rwxr-xr-x@  1 bindu  staff    69 Feb 18 11:48 run.sh
+drwxr-xr-x@  3 bindu  staff    96 Feb 14 08:13 src
+drwxr-xr-x@  8 bindu  staff   256 Feb 18 10:42 target
+drwxr-xr-x@ 21 bindu  staff   672 Feb 14 09:16 test-output
+drwxr-xr-x@  3 bindu  staff    96 Feb 14 08:13 testData
+-rw-rw-r--@  1 bindu  staff  1928 Feb 10 00:41 testng.xml
+bindu@Bindus-MacBook-Air NinjaV6 % chmod +x /Users/bindu/eclipse-workspace/NinjaV6/run.sh
+
+bindu@Bindus-MacBook-Air NinjaV6 % ls -l /Users/bindu/eclipse-workspace/NinjaV6
+
+total 32
+-rw-rw-r--@  1 bindu  staff   173 Feb 13 15:48 config.properties
+drwxr-xr-x@  4 bindu  staff   128 Feb 18 10:23 logs
+-rw-rw-r--@  1 bindu  staff  3159 Feb 18 10:20 pom.xml
+drwxr-xr-x@  7 bindu  staff   224 Feb 18 10:41 reports
+-rwxr-xr-x@  1 bindu  staff    69 Feb 18 11:48 run.sh
+drwxr-xr-x@  3 bindu  staff    96 Feb 14 08:13 src
+drwxr-xr-x@  8 bindu  staff   256 Feb 18 10:42 target
+drwxr-xr-x@ 21 bindu  staff   672 Feb 14 09:16 test-output
+drwxr-xr-x@  3 bindu  staff    96 Feb 14 08:13 testData
+-rw-rw-r--@  1 bindu  staff  1928 Feb 10 00:41 testng.xml
+bindu@Bindus-MacBook-Air NinjaV6 % cd ~/Desktop
+
+bindu@Bindus-MacBook-Air Desktop % touch run_ninja.command
+
+bindu@Bindus-MacBook-Air Desktop % nano run_ninja.command
+
+
+  UW PICO 5.09                File: run_ninja.command                 Modified  
+
+#!/bin/bash
+cd /Users/bindu/eclipse-workspace/NinjaV6  # Navigate to the script location
+./run.sh  # Run the script (change filename if needed)
+echo "Press Enter to exit..."
+read
+
+
+
+
+
+
+
+
+#!/bin/bash
+cd /Users/bindu/eclipse-workspace/NinjaV6
+./run.sh  # Change this to the actual script name
+echo "Press Enter to exit..."
+read#!/bin/bash
+cd /Users/bindu/eclipse-workspace/NinjaV6  # Change to your project folder
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
